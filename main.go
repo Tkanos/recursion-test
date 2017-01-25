@@ -40,6 +40,3 @@ func fiboT(n, first, second int) int {
 	return fiboT(n-1, second, first+second)
 }
 
-//http://codereview.stackexchange.com/questions/48020/four-algorithms-to-find-the-nth-fibonacci-number
-//http://codereview.stackexchange.com/questions/28386/fibonacci-generator-with-golang/28445#28445
-//http://www.golangpatterns.info/object-oriented/iterators
